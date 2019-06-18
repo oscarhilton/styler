@@ -1,0 +1,16 @@
+.TextControls {
+  &__accordion {
+    margin: 0 0 10px;
+
+    &__toggle {
+      width: 100%;
+      text-align: left;
+      padding: 10px 0;
+      border: 0;
+      font-weight: 700;
+      border-bottom: solid thin #ccc;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  }
+}

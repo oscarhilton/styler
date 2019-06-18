@@ -1,0 +1,13 @@
+.Colour {
+  &__picker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 513px;
+    height: 328px;
+    z-index: 5;
+  }
+}

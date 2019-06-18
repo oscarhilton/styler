@@ -1,0 +1,78 @@
+.BrandColours {
+  display: flex;
+  overflow: hidden;
+
+  &:hover {
+    .BrandColours__css {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+
+    .BrandColours__title {
+      opacity: 1;
+    }
+
+    .BrandColours__colours__colour {
+      width: 90px;
+      height: 60px;
+    }
+  }
+
+  &__css {
+    transform: translateY(10%);
+    transition: transform 0.2s, opacity 0.2s;
+    opacity: 0;
+  }
+
+  &__title {
+    width: 100px;
+    color: #212121;
+    opacity: 0;
+    transition: opacity 0.2s;
+
+    h3 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 100;
+    }
+  }
+
+  &__colours {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 100%;
+
+    &__colour {
+      width: 90px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-size: 12px;
+      margin: 5px;
+      margin-left: 0;
+      transition: background 0.2s, width 0.2s, height 0.2s;
+      border: solid thin #f1f1f1;
+      overflow: hidden;
+
+      &:hover {
+        background: white !important;
+        border: solid thin #f1f1f1;
+
+        * {
+          transform: translate(0%);
+          opacity: 1;
+        }
+      }
+
+      &__title {
+        width: 100%;
+        transform: translateY(100%);
+        opacity: 0;
+        transition: transform 0.1s, opacity 0.2s;
+        font-family: monospace;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.CSS {
+  font-family: monospace;
+  white-space: nowrap;
+  margin: 5px 0;
+  font-size: 11px;
+  padding: 10px;
+  background: white;
+  border: solid 1px rgb(235, 235, 235);
+  border-radius: 5px;
+  overflow: scroll;
+
+  &--rule {
+    color: #444;
+  }
+
+  &--key {
+    color: hotpink;
+    margin-left: 10px;
+  }
+
+  &--value {
+    color: darkblue;
+  }
+
+  &--comma {
+    color: grey;
+  }
+
+  &--dark {
+    background: transparent;
+    padding: 0;
+    border: 0;
+
+    // .CSS--rule {
+    //   color: rgb(255, 198, 117);
+    // }
+
+    // .CSS--key {
+    //   color: rgb(5, 226, 255);
+    //   margin-left: 10px;
+    // }
+
+    // .CSS--value {
+    //   color: rgb(209, 255, 102);
+    // }
+
+    // .CSS--comma {
+    //   color: grey;
+    // }
+  }
+}

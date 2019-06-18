@@ -1,0 +1,4 @@
+export const SET_NEW_STYLE = "STYLE/SET_NEW_STYLE";
+export const SET_COLOUR = "STYLE/SET_COLOUR";
+export const ADD_COLOUR = "STYLE/ADD_COLOUR";
+export const RESIZE_PANEL = "STYLE/RESIZE_PANEL";
