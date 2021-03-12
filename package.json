@@ -61,7 +61,7 @@
     "react": "^15.6.1",
     "react-collapsible": "^2.0.3",
     "react-color": "^2.14.1",
-    "react-dev-utils": "^4.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^15.6.1",
     "react-dropzone": "^4.2.13",
     "react-font-face": "^0.2.1",
